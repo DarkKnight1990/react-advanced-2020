@@ -20,7 +20,7 @@ const ContextAPI = () => {
   )
 }
 
-const List = ({ people, removePerson }) => {
+const List = ({ people }) => {
   return (
     <>
       {people.map((person) => {
